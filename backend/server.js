@@ -8,6 +8,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}))
 
 app.use('/api/station', require('./routes/stationRoutes'))
+app.use('/api/company', require('./routes/companyRouter'))
+app.use('/api/journey', require('./routes/journeyRouter'))
+
 
 
 
