@@ -24,7 +24,7 @@ function App() {
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<HomePage/>}>
-          <Route path="joureyTable" element={<JourneyTable />} />
+          <Route path="joureyTable" element={<JourneyTable />}>Journey Table</Route>
           <Route path="stationTable" element={<StationTable />} />
         </Route>
       </Routes>
