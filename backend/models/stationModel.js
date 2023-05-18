@@ -2,24 +2,33 @@ const mongoose = require('mongoose');
 
 const stationModel = mongoose.Schema({
 
-    id_fin: {
+    fid:{
         type: Number,
-        required: true
+        required: [true, "Pls add fid value"]
     },
-    name:{
+    id:{
         type: Number,
-        required: [true, "Pls add name value"]
+        required: [true, "Pls add id value"] 
     },
-    address:{
-        type: String,  
+    Name:{
+        type: String
     },
-    town:{
-        type: String,  
+    Address:{
+        type: String
     },
-
-}, 
-
-{
+    x:{
+        type: String
+    },
+    y:{
+        type: String 
+    } ,
+    total_journeys_starting:{
+        type: Number
+    } ,
+    total_journeys_ending:{
+        type: Number
+    }  
+}, {
     timepstamps: true,
 })
 

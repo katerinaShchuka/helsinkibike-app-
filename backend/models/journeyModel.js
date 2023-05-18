@@ -1,39 +1,39 @@
 const mongoose = require('mongoose');
 
 const journeyModel = mongoose.Schema({
-
-    id_fin: {
-        type: Number,
-        required: true
+    Departure: {
+        type: String, 
+        required: [true, "Pls add Departure value"] 
+        },
+    Return: {
+        type: String, 
+        required: [true, "Pls add  Return value"] 
     },
-    distance_start_time:{
-        type: Number,
-        required: true
+    Departure_station_id: {
+        type: Number, 
+        required: [true, "Pls add Departure_station_id value"] 
     },
-    return_time:{
-        type: Number,
-        required: true
+    Departure_station_name:{
+        type: String, 
+        required: [true, "Pls add Departure_station_name value"] 
     },
-    departure_station_id:{
-        type: Number,
-        required: true
+    Return_station_id: {
+        type: Number, 
+        required: [true, "Pls add Return_station_id value"] 
     },
-    return_station_id:{
-        type: Number,
-        required: true
+    Return_station_name:{
+        type: String, 
+        required: [true, "Pls add Return_station_name value"] 
+        },
+    Covered_distance : {
+        type: Number, 
+        required: [true, "Pls add Covered_distance value"] 
     },
-    distance:{
-        type: Number,
-        required: true
+    Duration: {
+        type: Number, 
+        required: [true, "Pls add Duration value"] 
     },
-    durations:{
-        type: Number,
-        required: true
-    },
-
-}, 
-
-{
+}, {
     timepstamps: true,
 })
 

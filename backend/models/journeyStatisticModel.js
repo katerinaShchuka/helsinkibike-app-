@@ -2,30 +2,27 @@ const mongoose = require('mongoose');
 
 const journeyStatisticModel = mongoose.Schema({
 
-    month_year: {
-        type: Data,
-        required: true
+     date: {
+        type: String, 
+        required: [true, "Pls add date value"] 
     },
-    distance_station_id:{
-        type: Number,
-        required: true
+    Departure_station_id: {
+        type: Number, 
+        required: [true, "Pls add Departure_station_id value"] 
     },
-    return_station_id:{
-        type: Number,
-        required: true
+    Return_station_id: {
+        type: Number, 
+        required: [true, "Pls add Return_station_id value"] 
     },
-    total_distance_per_month:{
-        type: Number,
-        required: true
+    total_distance_per_month: {
+        type: Number, 
+        required: [true, "Pls add total_distance_per_month value"] 
     },
-    total_journey_per_month:{
-        type: Number,
-        required: true
+    total_journey_per_month: {
+        type: Number, 
+        required: [true, "Pls add total_journey_per_month_id value"] 
     },
-
-}, 
-
-{
+}, {
     timepstamps: true,
 })
 
