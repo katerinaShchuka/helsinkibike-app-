@@ -17,7 +17,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { mainListItems, secondaryListItems } from './listItems';
-import Orders from './Orders';
+import Stations from './Stations';
 
 function Copyright(props) {
   return (
@@ -78,7 +78,7 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
   }),
 );
 
-// TODO remove, this demo shouldn't need to reset the theme.
+//Theme
 const defaultTheme = createTheme();
 
 export default function Dashboard() {
@@ -119,7 +119,7 @@ export default function Dashboard() {
               Dashboard
             </Typography>
             <IconButton color="inherit">
-              <Badge badgeContent={4} color="secondary">
+              <Badge badgeContent={1} color="secondary">
                 <NotificationsIcon />
               </Badge>
             </IconButton>
@@ -159,15 +159,13 @@ export default function Dashboard() {
         >
           <Toolbar />
           
-              {/* Recent Orders */}
+              {/* Stations */}
               <Grid item xs={12}>
                 <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
-                  <Orders />
+                  <Stations />
                 </Paper>
               </Grid>
-            
             <Copyright sx={{ pt: 4 }} />
-        
         </Box>
       </Box>
     </ThemeProvider>
