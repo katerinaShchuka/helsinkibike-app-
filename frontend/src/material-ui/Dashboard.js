@@ -16,8 +16,10 @@ import Link from '@mui/material/Link';
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import { mainListItems, secondaryListItems } from './listItems';
+import { secondaryListItems, mainListItems } from './listItems';
+
 import Stations from './Stations';
+
 
 function Copyright(props) {
   return (
@@ -83,12 +85,17 @@ const defaultTheme = createTheme();
 
 export default function Dashboard() {
   const [open, setOpen] = React.useState(true);
+
   const toggleDrawer = () => {
     setOpen(!open);
   };
 
+  
+
+ 
   return (
     <ThemeProvider theme={defaultTheme}>
+        
       <Box sx={{ display: 'flex' }}>
         <CssBaseline />
         <AppBar position="absolute" open={open}>
@@ -126,6 +133,10 @@ export default function Dashboard() {
           </Toolbar>
         </AppBar>
         <Drawer variant="permanent" open={open}>
+
+            
+
+
           <Toolbar
             sx={{
               display: 'flex',
@@ -138,6 +149,8 @@ export default function Dashboard() {
               <ChevronLeftIcon />
             </IconButton>
           </Toolbar>
+
+
           <Divider />
           <List component="nav">
             {mainListItems}
@@ -162,12 +175,17 @@ export default function Dashboard() {
               {/* Stations */}
               <Grid item xs={12}>
                 <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
-                  <Stations />
+
+            <Stations />
+
                 </Paper>
               </Grid>
+
+
             <Copyright sx={{ pt: 4 }} />
         </Box>
       </Box>
+      
     </ThemeProvider>
   );
 }
