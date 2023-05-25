@@ -6,7 +6,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import CheckSharpIcon from '@mui/icons-material/CheckSharp';
 import CircleSharpIcon from '@mui/icons-material/CircleSharp';
-
+import Divider from '@mui/material/Divider';
 
 const AboutMe = () => {
 
@@ -26,12 +26,13 @@ You can look at my project here!
 This is my big complex project I've done for <b>Solita Dev Academy Finland 2023! </b>
 It was very challenging to me because I am so excited to have an opportunity to become a member of Solita company. 
 <br />
-<br /><b>City Bike App</b> fetches stations from database and displays them in a list of stations items. Also this app fetches users from a database (using MongoDB), 
-and, please, request for authorisation via ip from the author. The app features Routing (on the left side of the main menu), sort and pagination functionalities, and calculate statistics in Statistic table. Also you can add stations. 
+<br /><b>City Bike App</b> fetches stations from database and displays them in a list of stations items from a database (using MongoDB), 
+And, please, request for authorisation via ip from the author. The app features Routing (on the left side of the main menu), sort and pagination functionalities, and calculate statistics in Statistic table. Also you can add stations. 
 <br />
 <br />Through this, I used backend <b>(Express.js, MongoDB, Node, Git)</b> and frontend <b>(React, Material-UI, HTML, CSS, JavaScript)</b>. However, my prior experience on similar projects helped significantly.
 <br />
 <br />
+ <Divider />
 <h3><i><u>Relevant Skills:</u></i></h3>
 
 <ul>
@@ -52,6 +53,7 @@ and, please, request for authorisation via ip from the author. The app features 
         <CheckSharpIcon color="primary"/>
         <ListItemText primary="Node.js, Express.js, MongoDB, Git" />
    </ListItemIcon>
+  <br />
 
     <ListItemIcon>
         <CheckSharpIcon color="primary" />
@@ -63,6 +65,7 @@ and, please, request for authorisation via ip from the author. The app features 
 <h3><i><u>Languages:</u></i></h3>
 
  <ListItemIcon>
+    
         <CircleSharpIcon fontSize="small" color="primary" className="circle"/>
         <ListItemText primary="English (fluent)" />
         <CircleSharpIcon fontSize="small" color="primary" className="circle"/>
@@ -71,7 +74,11 @@ and, please, request for authorisation via ip from the author. The app features 
         <ListItemText primary="Ukrainian (fluent)" />
         <CircleSharpIcon fontSize="small" color="primary" className="circle"/>
         <ListItemText primary="Russian (fluent)" />
+        
     </ListItemIcon>
+<br />
+<br />
+    <Divider />
 
 </p>
       <img src={image} alt="My Image" className="image"/>

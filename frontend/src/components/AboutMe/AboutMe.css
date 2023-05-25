@@ -8,7 +8,7 @@
 }
 
 .text {
-    width: 45%;
+    width: 47%;
     text-align: justify;
     margin-left: 2rem;
     font-size: 18px;
@@ -27,8 +27,8 @@
 }
 
 .circle {
-    padding-top: 0.6rem;
+    padding-top: 0.3rem;
     padding-right: 0.4rem;
-    padding-left: 0.4rem;
+    padding-left: 0.5rem;
 }
 
