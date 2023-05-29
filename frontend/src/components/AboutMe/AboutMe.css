@@ -15,8 +15,8 @@
 }
 
 .image {
-    width: 35%;
-  
+    height: 30rem;
+  padding-right: 2rem;
 }
 
 .head {
@@ -30,5 +30,10 @@
     padding-top: 0.3rem;
     padding-right: 0.4rem;
     padding-left: 0.5rem;
+}
+
+.tire {
+    padding-right: 0.5rem;
+    padding-top: 0.1rem;
 }
 

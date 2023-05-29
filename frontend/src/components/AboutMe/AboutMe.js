@@ -29,34 +29,36 @@ It was very challenging to me because I am so excited to have an opportunity to 
 <br /><b>City Bike App</b> fetches stations from database and displays them in a list of stations items from a database (using MongoDB), 
 And, please, request for authorisation via ip from the author. The app features Routing (on the left side of the main menu), sort and pagination functionalities, and calculate statistics in Statistic table. Also you can add stations. 
 <br />
-<br />Through this, I used backend <b>(Express.js, MongoDB, Node, Git)</b> and frontend <b>(React, Material-UI, HTML, CSS, JavaScript)</b>. However, my prior experience on similar projects helped significantly.
+<br />Through this, I used backend <b>(Express.js, MongoDB, Node.js, Git)</b> and frontend <b>(React, Material-UI, HTML, CSS, JavaScript)</b>. However, my prior experience on similar projects helped significantly.
+<br />
 <br />
 <br />
  <Divider />
+ <br />
 <h3><i><u>Relevant Skills:</u></i></h3>
 
 <ul>
 
     <ListItemIcon>
-        <CheckSharpIcon color="primary"/>
-        <ListItemText primary="JavaScript, TypeScript, React.js, Redux"/>
+        <CheckSharpIcon color="primary" className="tire"/>
+        <ListItemText primary="JavaScript, TypeScript, React.js, Redux, HTML"/>
     </ListItemIcon>
    
 
     <ListItemIcon>
-        <CheckSharpIcon color="primary"/>
+        <CheckSharpIcon color="primary" className="tire"/>
         <ListItemText primary="Material-UI, CSS, animation and accessibility, Bootstrap" />
     </ListItemIcon>
    
 
     <ListItemIcon>
-        <CheckSharpIcon color="primary"/>
-        <ListItemText primary="Node.js, Express.js, MongoDB, Git" />
+        <CheckSharpIcon color="primary" className="tire"/>
+        <ListItemText primary="Node.js, Express.js, MongoDB, GIT" />
    </ListItemIcon>
   <br />
 
     <ListItemIcon>
-        <CheckSharpIcon color="primary" />
+        <CheckSharpIcon color="primary" className="tire"/>
         <ListItemText primary="Jira, Trello, Slack, SAP, AdServe" />
     </ListItemIcon>
     
