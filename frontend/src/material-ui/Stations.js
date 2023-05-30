@@ -9,10 +9,7 @@ import Title from './Title';
 
 
 // Generate Stations Data
-// function createData() {
-//   fid, id, name, address, x, y, total_journeys_starting, total_journeys_ending
-//   return { fid, id, name, address, x, y, total_journeys_starting, total_journeys_ending };
-// }
+
 
 
 
@@ -46,15 +43,6 @@ function getDataStations() {
 
     return res;
 };
-
-
-
-// const rows = [
-//   createData()
-  
-  
-// ];
-
 
 
 export default function Stations() {
