@@ -2,7 +2,9 @@
 const express = require('express');
 const router = express.Router();
 
-const {getStation, getStationByIdFin, createOrUpdateStation, getStationListWithSort} = require("../controllers/stationController")
+
+
+const {getStation, getStationByIdFID, createOrUpdateStation, getStationListWithSort} = require("../controllers/stationController")
 
 
 
@@ -10,9 +12,8 @@ router.get('/', getStation);
 
 router.post('/create/', createOrUpdateStation);
 
-router.get('/:fid', getStationByIdFin)
+router.get('/:fid', getStationByIdFID)
 
 router.post('/', getStationListWithSort)
 
 module.exports = router
-

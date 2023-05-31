@@ -14,8 +14,6 @@ const getJourneyStatistic = asyncHandler(async (req, res) => {
         res.send(station)
 })
 
-
-
 // @desc get JourneyStatistic records by Month From Station
 // @route POST/api/Station/:id
 // @access Private

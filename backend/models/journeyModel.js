@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 
 const journeyModel = mongoose.Schema({
     Departure: {
-        type: String, 
-        required: [true, "Pls add Departure value"] 
+            type: String, 
+            required: [true, "Pls add Departure value"] 
         },
     Return: {
         type: String, 
@@ -22,8 +22,8 @@ const journeyModel = mongoose.Schema({
         required: [true, "Pls add Return_station_id value"] 
     },
     Return_station_name:{
-        type: String, 
-        required: [true, "Pls add Return_station_name value"] 
+            type: String, 
+            required: [true, "Pls add Return_station_name value"] 
         },
     Covered_distance : {
         type: Number, 

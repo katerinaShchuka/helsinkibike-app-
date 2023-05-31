@@ -1,7 +1,7 @@
+
 const mongoose = require('mongoose');
 
 const stationModel = mongoose.Schema({
-
     fid:{
         type: Number,
         required: [true, "Pls add fid value"]
@@ -10,11 +10,32 @@ const stationModel = mongoose.Schema({
         type: Number,
         required: [true, "Pls add id value"] 
     },
-    Name:{
+    nimi:{
         type: String
     },
-    Address:{
+    namn:{
         type: String
+    },
+    name:{
+        type: String
+    },
+    osoite:{
+        type: String
+    },
+    adress:{
+        type: String
+    },
+    kaupunki:{
+        type: String
+    },
+    stad:{
+        type: String
+    },
+    operaattor:{
+        type: String
+    },
+    kapasiteet:{
+        type: Number
     },
     x:{
         type: String
@@ -30,6 +51,7 @@ const stationModel = mongoose.Schema({
     }  
 }, {
     timepstamps: true,
+    versionKey: false 
 })
 
 module.exports = mongoose.model('station', stationModel);

@@ -1,63 +1,65 @@
+
+
+
+
 let data = [
     { 
-        _id: 1,
-        departure: "2021-05-31 23:57:25",
-        return:"2021-06-01 0:05:46",	
-        departure_station_id: 94, 
-        departure_station_name:"Laajalahden aukio",
-        return_station_id: 100,
-        return_station_name: "Teljäntie",
-        covered_distance: 2043,
-    
-        duration: 500
-    
-    
+        Departure: "2021-05-31 23:57:25",
+        Return:"2021-06-01 0:05:46",	
+        Departure_station_id: 2326, 
+        Departure_station_name:"Laajalahden aukio",
+        Return_station_id: 28,
+        Return_station_name: "Teljäntie",
+        Covered_distance: 2043,
+        Duration: 500
     },
     {
-        _id:2,
-        departure: "2021-05-31 23:56:59",
-        return:"2021-06-01 0:07:14",	
-        departure_station_id: 82, 
-        departure_station_name:"Töölöntulli",
-        return_station_id: 113,
-        return_station_name: "Pasilan asema",
-        covered_distance: 1870,
-        duration: 611
+  
+        Departure: "2021-05-31 23:56:59",
+        Return:"2021-06-01 0:07:14",	
+        Departure_station_id: 2324, 
+        Departure_station_name:"Töölöntulli",
+        Return_station_id: 2326,
+        Return_station_name: "Pasilan asema",
+        Covered_distance: 1870,
+        Duration: 611
     },
     {
-        _id:3,
-        departure: "2021-05-31 23:56:44",
-        return:"2021-06-01 0:03:26",	
-        departure_station_id: 123, 
-        departure_station_name:"Näkinsilta",
-        return_station_id: 121,
-        return_station_name: "Vilhonvuorenkatu",
-        covered_distance: 1025,
-        duration: 399
+      
+        Departure: "2021-05-31 23:56:44",
+        Return:"2021-06-01 0:03:26",	
+        Departure_station_id: 2324, 
+        Departure_station_name:"Näkinsilta",
+        Return_station_id: 28,
+        Return_station_name: "Vilhonvuorenkatu",
+        Covered_distance: 1025,
+        Duration: 399
     },
     {
-        _id:4,
-        departure: "2021-05-31 23:54:48",
-        return:"2021-06-01 0:00:57",	
-        departure_station_id: 292, 
-        departure_station_name:"Koskelan varikko",
-        return_station_id: 133,
-        return_station_name: "Paavalinpuisto",
-        covered_distance: 1713,
-        duration: 366
+     
+        Departure: "2021-05-31 23:54:48",
+        Return:"2021-06-01 0:00:57",	
+        Departure_station_id: 292, 
+        Departure_station_name:"Koskelan varikko",
+        Return_station_id: 133,
+        Return_station_name: "Paavalinpuisto",
+        Covered_distance: 1713,
+        Duration: 366
     }
   	]
 
 let addData = {
-    _id:5,
-    departure: "2021-05-31 23:54:11",
-    return:"2021-06-01 0:17:11",	
-    departure_station_id: 34, 
-    departure_station_name:"Kansallismuseo",
-    return_station_id: 81,
-    return_station_name: "Stenbäckinkatu",
-    covered_distance: 2550,
-    duration: 1377
+    Departure: "2021-05-31 23:54:11",
+    Return:"2021-06-01 0:17:11",	
+    Departure_station_id: 34, 
+    Departure_station_name:"Kansallismuseo",
+    Return_station_id: 81,
+    Return_station_name: "Stenbäckinkatu",
+    Covered_distance: 2550,
+    Duration: 1377
 }
 
-module.exports = {data, addData}
+module.exports = {
+    data,
+    addData
+}

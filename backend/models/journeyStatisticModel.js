@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
 
 const journeyStatisticModel = mongoose.Schema({
-
-     date: {
+    date: {
         type: String, 
         required: [true, "Pls add date value"] 
     },
