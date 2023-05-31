@@ -7,24 +7,41 @@ The React project was bootstrapped with [Create React App](https://github.com/fa
 ## Presetup
 
 MongoDb - please request for authorisation via ip from the author
-In the project directory, you can run:
+In the project directory:
+
+How run app
+
+1. Set up database copy connection from mongoDB
+2. Parc csv file from postman
+
+Stations csv upload: http://localhost:4000/api/uploadCsv/create
+Journey csv upload: http://localhost:4000/api/uploadCsv/createjourney
+
+You can check the file in the tempdata folder in the Backend project.
+
+3. Run backend:
+
+### `cd backend`
 
 ### `npm install`
 
-### `npm run server`
+### `npm start`
 
 Get info about the `port` number
 
 Run second Terminal:
 
-### `cd frontend`
+4. Run frontend:
 
-in frontend derectory open packege.json
-Add very first line "proxy": "http://localhost:`port`",
+### `cd frontend`
 
 ### `npm install`
 
 ### `npm start`
+
+in frontend derectory open packege.json
+Add very first line "proxy": "http://localhost:`port`",
+
 
 Runs the app in the development mode.\
 Open [http://localhost:4000](http://localhost:4000) to view it in your browser.
