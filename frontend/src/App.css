@@ -1,0 +1,26 @@
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+}
+.s-style{
+  cursor: pointer;
+}
+.bk-img{
+  height: 435px;
+  
+}
+.pagi{
+  position: relative;
+    float: right;
+    top: -43px;
+    color: #000;
+    right: 20px;
+}
