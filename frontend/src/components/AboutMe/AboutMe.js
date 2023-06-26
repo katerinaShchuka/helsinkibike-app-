@@ -23,8 +23,7 @@ return ( <div className = "titleAbout">
         
 You can look at my project here!
 
-This is my big complex project I've done for <b>Solita Dev Academy Finland 2023! </b>
-It was very challenging to me because I am so excited to have an opportunity to become a member of Solita company. 
+This is my big <b>complex project</b> and it was very challenging to me! 
 <br />
 <br /><b>City Bike App</b> fetches stations from database and displays them in a list of stations items from a database (using MongoDB), 
 And, please, request for authorisation via ip from the author. The app features Routing (on the left side of the main menu), sort and pagination functionalities, and calculate statistics in Statistic table. Also you can add stations. 
